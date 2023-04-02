@@ -1,0 +1,85 @@
+.flex {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  height: fit-content;
+  border-bottom: 0.01rem solid black;
+  padding-left: 3%;
+  position: relative;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+ul,
+li {
+  display: inline;
+  margin-left: 2rem;
+  font-size: small;
+}
+.buttons {
+  position: absolute;
+
+  right: 0;
+}
+
+.logIn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 7px;
+  font-size: 15px;
+  border-radius: 20%;
+  border: none;
+}
+
+.signUp {
+  padding: 10px;
+  margin: 7px;
+  font-size: 15px;
+  background-color: #97bf20;
+  border-radius: 20%;
+  border: 0.01rem solid rgba(0, 0, 0, 0.421);
+  color: white;
+}
+
+.im1 {
+  height: 700px;
+
+  background-image: url(Images/fondFurn.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.38);
+}
+
+.intIm1 {
+  display: flex;
+  display: grid;
+  grid-template-columns: 55% 45% 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.im1-1 {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.586);
+}
+.im1-2 {
+  padding-left: 5%;
+  background-color: rgba(255, 255, 255, 0.677);
+}
+
+.img2 {
+  margin-top: 20%;
+  width: 500px;
+}
+
+.About {
+  height: 150px;
+  color: black;
+  text-align: center;
+}
